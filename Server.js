@@ -3,7 +3,6 @@ const app = express();
 
 const HTTP_PORT = process.env.PORT || 8080;
 
-app.set("port",HTTP_PORT);
 app.listen(HTTP_PORT , ()=>{
     console.log("Listening on:" + HTTP_PORT);
 })
