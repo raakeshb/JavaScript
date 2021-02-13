@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-let HTTP_PORT = process.env.PORT || 8080;
+const HTTP_PORT = process.env.PORT || 8080;
 
 app.set("port",HTTP_PORT);
 app.listen(HTTP_PORT , ()=>{
